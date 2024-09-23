@@ -4,7 +4,7 @@ import { highlight } from 'sugar-high'
 import Counter from './counter'
 
 function Code ({ children, ...props }: any){
-    let codeHTML = highlight(children)
+    const codeHTML = highlight(children)
     return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
 }
 
