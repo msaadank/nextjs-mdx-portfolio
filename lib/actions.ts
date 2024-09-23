@@ -4,8 +4,6 @@ import { z } from 'zod'
 import { ContactFormSchema, NewsletterFormSchema } from './schemas'
 import EmailTemplate from '@/emails/contact-form-email'
 import { Resend } from 'resend'
-import NewsletterForm from '@/components/newsletter-form'
-import { render } from '@react-email/components'
 import NewsletterWelcomeEmail from '@/emails/newsletter-welcome-email'
 
 type ContactFormInputs = z.infer<typeof ContactFormSchema>

@@ -1,7 +1,5 @@
 import React from 'react'
-import Posts from './posts'
 import Link from 'next/link'
-import { getPosts } from '@/lib/posts'
 import { getProjects } from '@/lib/projects'
 import Projects from './projects'
 
